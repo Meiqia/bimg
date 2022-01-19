@@ -2,7 +2,7 @@ package bimg
 
 /*
 #cgo CFLAGS: -I. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libpng16 -I/usr/include -I/usr/include/png -I/usr/lib64/glib-2.0/include
-#cgo LDFLAGS: -lvips -lgobject-2.0 -lglib-2.0
+#cgo LDFLAGS: -L/usr/local/lib -lvips -lgobject-2.0 -lglib-2.0
 #include "vips/vips.h"
 */
 import "C"
